@@ -1,0 +1,12 @@
+{
+  "name": "solution1",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "server": "cd server && npm run start ",
+    "start": "concurrently \"cd sol && npm run dev\" \"cd server && npm run start\"",
+    "full_install": "concurrently \"cd server && npm install\" \"cd sol && npm install\""
+  },
+  "author": "",
+  "license": "MIT"
+}
